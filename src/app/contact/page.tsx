@@ -2,7 +2,7 @@ import React from 'react'
 import { MdLocationPin , MdAccessTimeFilled} from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 
-function page() {
+function Page() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen mt-10">
     <div className="text-center">
@@ -94,4 +94,4 @@ function page() {
   )
 }
 
-export default page
+export default Page

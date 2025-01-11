@@ -4,7 +4,7 @@ import { FaRegCheckCircle } from "react-icons/fa";
 import { LiaEnvelope } from "react-icons/lia";
 import { PiPlantThin } from "react-icons/pi";
 
-function page() {
+function Page() {
   return (
     <div className='flex justify-center'>
       <div className='sm:w-full lg:w-[80%] mt-20 mb-40'>
@@ -82,4 +82,4 @@ function page() {
   )
 }
 
-export default page
+export default Page

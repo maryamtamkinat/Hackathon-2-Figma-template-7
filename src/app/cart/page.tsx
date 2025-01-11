@@ -2,7 +2,7 @@ import React from "react";
 import { FaRegHeart } from "react-icons/fa";
 import { RiDeleteBin6Line } from "react-icons/ri";
 
-function page() {
+function Page() {
   return (
     <div className="flex flex-wrap justify-center gap-20 pt-20 pb-20 lg:pb-52 mx-auto">
               {/* Left side */}
@@ -71,4 +71,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

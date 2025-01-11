@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaPlus } from "react-icons/fa6";
 
-function page() {
+function Page() {
   return (
     <div className="flex flex-col mt-28 mb-40">
        <div className="text-center">
@@ -61,4 +61,4 @@ function page() {
   )
 }
 
-export default page
+export default Page
