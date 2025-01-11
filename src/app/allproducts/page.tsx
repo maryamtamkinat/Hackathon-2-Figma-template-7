@@ -12,7 +12,7 @@ interface Iproducts {
   selling?: string;
 }
 
-let products: Iproducts[] = [
+const products: Iproducts[] = [
   {
     id: 1,
     title: "Library Stool Chair",
@@ -130,7 +130,7 @@ const instaproducts : Instaproducts[] =[
 
 
 
-let cart = <BsCartDash />;
+const cart = <BsCartDash />;
 
 function Products() {
   return (

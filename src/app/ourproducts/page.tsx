@@ -12,7 +12,7 @@ interface Iproducts {
   selling?:string,
 }
 
-let products: Iproducts[] = [
+const products: Iproducts[] = [
   {
     id: 1,
     title: "Library Stool Chair",
@@ -69,8 +69,6 @@ let products: Iproducts[] = [
   },
 ];
 
-let cart = <BsCartDash />;
-
 function Ourproducts() {
   return (
     <div className='mt-32 mb-40'>
@@ -104,7 +102,7 @@ function Ourproducts() {
                         </span>      
                       </span>
                       <Link href={`/ourproducts/${data.id}`} className=' bg-gray-300 hover:bg-cyan-500 hover:text-white p-2 ml-16 rounded-lg mt-5'>
-                      {cart}
+                      <BsCartDash />
                     </Link>
                 </div>
                </div>

@@ -8,7 +8,7 @@ interface Categories {
     img_url: string;
   }
 
-  let categories:Categories [] = [
+  const categories:Categories [] = [
     {
       id: 1,
       title: "Wing Chair",

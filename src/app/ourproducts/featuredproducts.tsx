@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 import React from 'react'
 import { BsCartDash } from "react-icons/bs";
 
@@ -12,7 +11,7 @@ interface Iproducts {
   selling?:string,
 }
 
-let products: Iproducts[] = [
+const products: Iproducts[] = [
   {
     id: 1,
     title: "Library Stool Chair",
@@ -42,7 +41,6 @@ let products: Iproducts[] = [
   },
 ]
 
-let cart = <BsCartDash />;
 
 function Featuredproduct() {
   return (
@@ -76,7 +74,7 @@ function Featuredproduct() {
                         </span>      
                       </span>
                       <span className=' bg-gray-300 hover:bg-cyan-500 hover:text-white p-2 ml-16 rounded-lg mt-5'>
-                      {cart}
+                      <BsCartDash />
                     </span>
                 </div>
                </div>
