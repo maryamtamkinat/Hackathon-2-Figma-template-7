@@ -21,7 +21,7 @@ interface Featuredproducts{
   img_url:string,
 }
 
-let products: Iproducts[] = [
+const products: Iproducts[] = [
   {
     id: 1,
     title: "Library Stool Chair",
@@ -140,7 +140,7 @@ const featuredproducts:Featuredproducts[] = [
 ]
 
 
-let cart = <BsCartDash />;
+const cart = <BsCartDash />;
 
 function Page() {
   const params = useParams();
