@@ -10,6 +10,7 @@ function Footer() {
     <div className='flex flex-wrap gap-10 justify-center py-20 border-gray-400 border-t-[1px] border-b-[1px] sm:flex-col md:flex-row sm:items-center md:items-startsm:space-y-8 md:space-y-0 md:items-start px-5'>
       <ul className='flex flex-col gap-y-2 text-center md:text-left'>
         <span className='flex items-center gap-2 pb-2 justify-center md:justify-start'>
+        {/* /* eslint-disable @next/next/no-img-element */ }
         <img src="/Comforty-logo.png" alt="" className='w-8'/>
         <h1 className='font-bold text-2xl'>Comforty</h1>
         </span>

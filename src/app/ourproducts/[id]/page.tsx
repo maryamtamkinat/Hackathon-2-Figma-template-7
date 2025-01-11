@@ -105,7 +105,7 @@ let products: Iproducts[] = [
   },
 ];
 
-let featuredproducts:Featuredproducts[] = [
+const featuredproducts:Featuredproducts[] = [
   {
     id:1,
     title:"Library Stool Chair",
@@ -142,7 +142,7 @@ let featuredproducts:Featuredproducts[] = [
 
 let cart = <BsCartDash />;
 
-function page() {
+function Page() {
   const params = useParams();
   const id = params.id
   const item = products.find((item) => item.id === Number(id))
@@ -185,4 +185,4 @@ function page() {
   }
 
 
-export default page
+export default Page

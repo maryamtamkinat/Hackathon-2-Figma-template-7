@@ -9,6 +9,7 @@ function Newstyles() {
         <span className="absolute transform -rotate-90 md:-left-36 lg:-left-60 top-1/2 -translate-y-1/2 font-normal md:text-sm lg:text-2xl hidden md:flex">
           EXPLORE NEW AND POPULAR STYLES
         </span>
+        {/* /* eslint-disable @next/next/no-img-element */ }
         <img
           src="/featured-product-3.png"
           alt="Featured Product"
@@ -18,12 +19,16 @@ function Newstyles() {
   
       {/* Right Section */}
       <div className="flex-1 grid grid-cols-2 gap-2 md:w-[30%]">
+      {/* /* eslint-disable @next/next/no-img-element */ }
         <img src="featured-product-4.png" alt="Product 4" className="w-full h-auto  max-w-[230px] md:max-h-[220px] object-cover rounded-lg"
         />
+        {/* /* eslint-disable @next/next/no-img-element */ }
         <img src="featured-product-1.png" alt="Product 1" className="w-full h-auto max-w-[230px] md:max-h-[220px] object-cover rounded-lg"
         />
+        {/* /* eslint-disable @next/next/no-img-element */ }
         <img src="ourproduct-6.png" alt="Product 6" className="w-full h-auto max-w-[230px] md:max-h-[220px] object-cover rounded-lg"
         />
+        {/* /* eslint-disable @next/next/no-img-element */ }
         <img src="ourproduct-7.png" alt="Product 7" className="w-full h-auto max-w-[230px] md:max-h-[220px] object-cover rounded-lg"
         />
       </div>
